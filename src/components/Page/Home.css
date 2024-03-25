@@ -1,0 +1,51 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(19, 217, 207); /* Set background color */
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9kNEwsyJwXkneEAAAAZdEVYdFNvZnR3YXJlAHBhaW50Lm5ldCA0LjAuMWMJRwAAAANJREFUGFdj+M8AABgwC6xY8Q4AAAABJRU5ErkJggg=='); /* Set background pattern */
+  }
+  
+  .home-container.quote-container {
+    position: relative;
+    background-color: orange; /* Orange background color */
+    border-radius: 20px; /* Rounded corners */
+    padding: 40px;
+    text-align: center;
+    width: 70%; /* Set width to 70% of the parent (home container) */
+    max-width: 600px; /* Set max-width to limit container width */
+    margin: 0 auto; /* Center the container horizontally */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+  }
+  
+  .home-container.quote {
+    font-size: 24px; /* Font size */
+    font-style: italic; /* Italicize the text */
+    line-height: 1.6; /* Increase line height for readability */
+    color: #333; /* Text color */
+    margin-bottom: 20px; /* Add spacing between quote and other content */
+  }
+
+
+  .home-container.inverted-comma {
+    font-size: 40px; /* Size of inverted commas */
+    color: #fff; /* Color of inverted commas */
+  }
+
+
+
+  .home-container.big-button {
+    padding: 800px 1600px; /* Increase padding to make the button larger */
+    font-size: 800px; /* Set font size to 800 pixels */
+    background-color: #007bff; /* Set background color */
+    color: white; /* Set text color */
+    border: none; /* Remove border */
+    border-radius: 40px; /* Add border radius for rounded corners */
+    cursor: pointer; /* Add cursor pointer on hover */
+    transition: background-color 0.3s ease; 
+  }
+  
+ 
+  

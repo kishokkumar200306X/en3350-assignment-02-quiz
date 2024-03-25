@@ -1,0 +1,108 @@
+.container{
+    width: 640px;
+    margin: auto;
+    margin-top: 150px;
+    background: white;
+    color:darkred;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+    padding: 40px 50px;
+}
+
+.container hr {
+    height: 2px;
+    border: none;
+    background: darkred;
+}
+
+.container h2 {
+    font-size: 27px;
+    font-weight: 500;
+}
+
+/* .container ul li{
+    display: flex;
+    align-items: center;
+    height: 70px;
+    padding-left: 15px;
+    border: 2px rgb(2, 1, 1);
+    border-radius: 8px;
+    border-style: solid;
+    margin-bottom: 20px;
+    font-size: 20px;
+    cursor: pointer;
+
+} */
+
+.container ul li {
+    list-style: none; /* Remove default list-style */
+    background-color: #f0f0f0; /* Set background color */
+    padding: 10px; /* Add padding to create space inside the list item */
+    margin-bottom: 15px; /* Add bottom margin to create space between list items */
+    font-family: Arial, sans-serif; /* Set font family */
+    font-size: 16px; /* Set font size */
+    color: #333; /* Set text color */
+    border-radius: 5px; /* Apply border radius to create rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+    transition: background-color 0.3s ease; /* Smooth transition on background color change */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.container ul li:hover {
+    background-color: #e0e0e0; /* Change background color on hover */
+}
+
+.container ul li:last-child {
+    margin-bottom: 0; /* Remove bottom margin from the last list item */
+}
+
+
+.container .index{
+    margin: auto;
+    font-size: 18px;
+}
+
+.container button{
+    margin: auto;
+    width: 250px;
+    height: 65px;
+    background: rgb(197, 106, 21);
+    color: #fff;
+    font-size: 25px;
+    font-weight: 500;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+
+
+.container ul li.selected {
+    background-color:  rgb(19, 217, 207) ;
+  }
+  
+  
+  
+/* Quiz.css */
+.loading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .loading-spinner {
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid rgb(197, 106, 21);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
